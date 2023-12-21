@@ -23,7 +23,7 @@ const events = [
         date: 'September 2020 - July 2023',
         title: 'Apprenticeship',
         description: 'Completed a software development apprenticeship at United Internet AG',
-        labels: ['Java', 'Typescript/Javascript', 'Web Development', 'SQL', 'Networking', 'Linux', 'Bash', 'Docker'],
+        labels: ['Java', 'Typescript/Javascript', 'Vue.js', 'SQL', 'Networking', 'Linux', 'Bash', 'Docker'],
     },
     {
         date: 'July 2023 - Now',
