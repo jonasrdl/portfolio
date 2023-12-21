@@ -7,9 +7,9 @@
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{{ event.date }}</time>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{{ event.title }}</h3>
             <p class="mb-1 text-base font-normal text-gray-500 dark:text-gray-400">{{ event.description }}</p>
-            <div class="flex space-x-2 mb-4">
+            <div class="flex flex-wrap mb-4"> <!-- Updated class to flex-wrap -->
                 <span v-for="(label, labelIndex) in event.labels" :key="labelIndex"
-                    class="label-badge px-2 py-1 text-sm font-medium bg-gray-200 text-gray-800 rounded-md hover:scale-105 transition-transform">
+                    class="label-badge px-2 py-1 text-sm font-medium bg-gray-200 text-gray-800 rounded-md hover:scale-105 transition-transform m-0.5">
                     {{ label }}
                 </span>
             </div>
@@ -33,3 +33,4 @@ const events = [
     },
 ];
 </script>
+  
